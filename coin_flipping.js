@@ -35,7 +35,7 @@ function fiveHeads() {
             }
             if (headsCount === 5){
                 resolve(`Coin has flipped five "heads" in a row! it only took ${attempts} attempts!`);
-            } else if (attempts > 100){
+            } else if (attempts > 99){
                 reject('Did not flip five "heads" in a row after 100 tries!');
             }
         }
